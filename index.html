@@ -18,7 +18,9 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <title>Work Day Scheduler</title>
   </head>
 
@@ -26,13 +28,35 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
+      <!-- Used Moment.js in the external .js file to add current day here -->
       <p id="currentDay" class="lead"></p>
     </header>
+
     <div class="container">
       <!-- Timeblocks go here -->
+      <table class="table table-borderless">
+        <tbody>
+          <tr>
+            <th scope="row" id="hoursInDay" class="hour">hour</th>
+            <td id="taskAtHand" class="time-block" class="past present future">empty task</td>
+            <td id="saveTask" class="saveBtn">Save emoji</td>
+          </tr>
+          <tr>
+            <th scope="row" id="hoursInDay" class="hour">hour</th>
+            <td id="taskAtHand" class="time-block" class="past present future">empty task</td>
+            <td id="saveTask" class="saveBtn">Save emoji</td>
+          </tr>
+          <tr>
+            <th scope="row" id="hoursInDay" class="hour">hour</th>
+            <td id="taskAtHand" class="time-block" class="past present future">empty task</td>
+            <td id="saveTask" class="saveBtn">Save emoji</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    
+
+    <script src="./assets/script.js"></script>
   </body>
 </html>

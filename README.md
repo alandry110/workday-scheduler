@@ -19,9 +19,17 @@ For this project, I was given a set of critical requirements. They are as follow
 
 ![gif of mock-up](./assets/images/05-third-party-apis-homework-demo.gif)
 
+## Trouble Shooting
+
+* First I needed to move the Moment.js and jQuery above the code.
+* I then added my script.js file at the end of my html inside of <body>.
+
 ## Description and Credits 
 
 To create this application, I sought help from multiple resources, which include:
+
+* YouTube: 
+    - https://www.youtube.com/watch?v=nmAHDEO9RW8 : helped me understand moment.js 
 
 
 ## Final submission links:
