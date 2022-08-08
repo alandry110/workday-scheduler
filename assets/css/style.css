@@ -33,13 +33,15 @@ textarea {
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  padding-top: 30px;
+  padding-left: 10px;
 }
 
 .past {
@@ -68,4 +70,29 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width: 768px), screen and (max-width: 500px) {
+
+  textarea {
+    min-height: 85px;
+    border: 0;
+    border-top: 1px solid black;
+  }
+
+  .row {
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .hour {
+    padding: 15px;
+  }
+
+  .saveBtn {
+    border: 0;
+    border-radius: 0.25rem;
+    height: 50px;
+    border-top: 1px solid black;
+  }
 }

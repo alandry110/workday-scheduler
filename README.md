@@ -34,8 +34,8 @@ To create this application, I sought help from multiple resources, which include
 
 ## Final submission links:
 
-* GitHub Repository - 
-* GitHub Deployed Page - 
+* GitHub Repository - https://github.com/alandry110/workday-scheduler
+* GitHub Deployed Page - https://alandry110.github.io/workday-scheduler/
 
 
 ## This is what my final Code Quiz looks like:
