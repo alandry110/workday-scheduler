@@ -1,24 +1,37 @@
+:root {
+  --pink: #F6CAC1;
+  --bloodOrange: #B64609;
+  --darkGreen: #243629;
+  --lightGreen: #797B72;
+  --lightOrange: #D1845A;
+}
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Bodoni Moda', serif;
   font-size: 16px;
   line-height: 1;
+  padding-bottom: 30px;
+  background-color: var(--pink);
+}
+
+p {
+  font-size: 30px;
 }
 
 textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
-  border-left: 1px solid black;
+  color: white;
   padding: 10px;
 }
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
-  color: black;
-  border-radius: 0;
-  border-bottom: 10px solid black;
+  background-color: var(--pink);
+  color: var(--darkGreen);
+  margin: 0;
+  padding: 30px 0 30px 0;
 }
 
 .description{
@@ -33,43 +46,48 @@ textarea {
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;
+  border-top: 2px solid var(--pink);
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  background-color: var(--bloodOrange);
+  color: white;
   padding-top: 30px;
   padding-left: 10px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: var(--lightOrange);
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: var(--bloodOrange);
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: var(--darkGreen);
   color: white;
 }
 
 .saveBtn {
-  border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: var(--darkGreen);
+  color: white;
+}
+
+.saveBtn:hover {
   color: white;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
-  transition: all .3s ease-in-out;
+  transition: all .1s ease-in-out;
+  color: white;
 }
 
 @media screen and (max-width: 768px), screen and (max-width: 500px) {
@@ -77,7 +95,6 @@ textarea {
   textarea {
     min-height: 85px;
     border: 0;
-    border-top: 1px solid black;
   }
 
   .row {
@@ -87,12 +104,14 @@ textarea {
 
   .hour {
     padding: 15px;
+    border-radius: 0;
+    background-color: var(--pink);
+    color: var(--darkGreen);
   }
 
   .saveBtn {
     border: 0;
     border-radius: 0.25rem;
     height: 50px;
-    border-top: 1px solid black;
   }
 }
