@@ -41,7 +41,7 @@ This application was created using HTML, CSS, JavaScript and Moment.js libraries
 
 ## Final Application
 [View Live Planner](https://ashclandry.github.io/workday-scheduler/)
-![Gif of Planner]()
+![Gif of Planner](./assets/images/Daily%20Planner.gif)
 
 ## Credits
 To create this application, I sought help from multiple resources, which include:
