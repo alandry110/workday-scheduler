@@ -15,11 +15,11 @@ $("#currentDay").text(currentDay.format("MMMM Do, YYYY"));
  $("#10am").val(localStorage.getItem("10am"));
  $("#11am").val(localStorage.getItem("11am"));
  $("#12pm").val(localStorage.getItem("12pm"));
- $("#1pm").val(localStorage.getItem("1pm"));
- $("#2pm").val(localStorage.getItem("2pm"));
- $("#3pm").val(localStorage.getItem("3pm"));
- $("#4pm").val(localStorage.getItem("4pm"));
- $("#5pm").val(localStorage.getItem("5pm"));
+ $("#13pm").val(localStorage.getItem("13pm"));
+ $("#14pm").val(localStorage.getItem("14pm"));
+ $("#15pm").val(localStorage.getItem("15pm"));
+ $("#16pm").val(localStorage.getItem("16pm"));
+ $("#17pm").val(localStorage.getItem("17pm"));
 
 
   // Event Listener
