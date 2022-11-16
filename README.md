@@ -7,6 +7,7 @@ The purpose of this repository is to create a dynamic and responsive application
 
 This application was created using HTML, CSS, JavaScript and Moment.js libraries and other moment alternatives with the help of a provided starter code. 
 
+✨ Click [Here](https://ashclandry.github.io/workday-scheduler/) to view the deployed application! ✨
 ## Table of Contents 
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
@@ -58,7 +59,7 @@ THEN the saved events persist
 * Moment.js 
 
 ## Final Application
-[View Live Planner](https://ashclandry.github.io/workday-scheduler/)
+[View Deployed Application](https://ashclandry.github.io/workday-scheduler/)
 
 ![Gif of Planner](./assets/images/Daily%20Planner.gif)
 
